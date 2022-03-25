@@ -1,6 +1,7 @@
 package Collection.Map;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 
 public class HashMapEx {
@@ -14,8 +15,26 @@ public class HashMapEx {
         //Finding the value for a key;
         System.out.println("Value for 2 is :" + hm.get(2) );
 
+        Iterator<Integer> it = hm.keySet().iterator();
+
+        System.out.println("HashMap Elements");
+        System.out.println("-----------------------");
+
+        while (it.hasNext()){
+            int key = it.next();
+            System.out.println("Key ="+key);
+            System.out.println("Value="+hm.get(key));
+        }
+
+//        for(Map.Entry<Integer,String> e: hm.entrySet()){
+//            System.out.println(e);
+//        }
+
+
+
+
         //Traversing through the HashMap
-      for (Map.Entry<Integer,String> e : hm.entrySet())
-          System.out.println(e.getKey()+" "+e.getValue());
+//      for (Map.Entry<Integer,String> e : hm.entrySet())
+//          System.out.println(e.getKey()+" "+e.getValue());
     }
 }

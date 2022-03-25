@@ -6,7 +6,7 @@ public class Pattern {
        int n = 5;
 
        //For Upper Half Design
-       for (int i = 1; i <= n; i++) {
+       for (int i = 1; i <= n; i++) {     //main loop 1i
 
            //Decreasing Space     ===>   in
            for (int j = i; j <= n; j++) {

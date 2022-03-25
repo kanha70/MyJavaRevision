@@ -18,9 +18,12 @@ public class ArrayDequeEx {
         System.out.println(de_que);
         de_que.clear();
 
+        System.out.println(de_que);
+
         de_que.addFirst(543);
         de_que.addLast(673);
 
+        System.out.println(de_que);
         //AddLast() method to insert the element at the tail
         de_que.addLast(23);
         de_que.addLast(6);

@@ -8,7 +8,9 @@ public class CopyArray {
        //Declaring destination Array
         char []dest = new char[10];
         System.arraycopy(src,2,dest,0,10);
-        System.out.println(dest);
+        //System.arraycopy(src,1,dest,0,10);
+        System.out.println("Source Array =>"+String.valueOf(src));
+        System.out.println("Destination array =>"+String.valueOf(dest));
         System.out.println(String.valueOf(dest));
     }
 }

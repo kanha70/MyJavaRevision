@@ -1,4 +1,4 @@
-package com.company.ControlFlow;
+package com.company.ControlFlow.StringOperation;
 
 
 import java.util.Scanner;

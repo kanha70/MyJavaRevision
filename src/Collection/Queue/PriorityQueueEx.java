@@ -12,7 +12,8 @@ public class PriorityQueueEx {
         pqueue.add(58);
 
         System.out.println(pqueue);
-        System.out.println(pqueue.peek());
+        System.out.println("Peek value"+pqueue.peek());
+        System.out.println(pqueue);
         System.out.println(pqueue.poll());
         System.out.println(pqueue);
     }
